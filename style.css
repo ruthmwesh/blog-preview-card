@@ -11,15 +11,21 @@ html {
 body {
   background-color: #f4d04e;
   font-family: "Figtree", sans-serif;
-  padding: 5rem 1rem;
+/*   padding: 5rem 1rem;
+ */
+   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 
 .container {
   width: 40rem;
   background-color: #fff;
-  margin: 0 auto;
-  padding: 2rem;
+/*  margin: 0 auto; */
+    padding: 2rem; 
   border: 1px solid #000;
   border-radius: 2rem;
   box-shadow: 1rem 1rem 1rem 0 #000;
